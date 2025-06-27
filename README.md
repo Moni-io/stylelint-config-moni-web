@@ -21,10 +21,16 @@ $ install-peerdeps stylelint-config-moni-web --dev
 
 ## Usage
 
-Once the `stylelint-config-moni-web` package is installed, you can use it by specifying the different configs in the 
+Once the `stylelint-config-moni-web` package is installed, you can use it by specifying the config in your `.stylelintrc` or `stylelint.config.js`:
 
 ```json
 {
-    "extends": "stylelint-config-standard"
+    "extends": "stylelint-config-moni-web"
 }
 ```
+
+## Version Compatibility
+
+This config requires:
+- Stylelint ^16.21.0
+- stylelint-config-standard-scss ^15.0.1
